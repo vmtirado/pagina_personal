@@ -1,0 +1,23 @@
+{
+  "name": "paginaweb",
+  "version": "1.0.0",
+  "description": "My page",
+  "main": "index.html",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vmtirado/pagina_personal.git"
+  },
+  "author": "Vilma Tirado Gomez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vmtirado/pagina_personal/issues"
+  },
+  "homepage": "https://github.com/vmtirado/pagina_personal#readme"
+}
