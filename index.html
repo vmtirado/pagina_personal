@@ -10,117 +10,103 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-    <title>Mi pagina</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <title>Vilma Tirado</title>
   </head>
   <body>
-    <div class="container">
-      <nav class="menu"> 
+    <!--navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse"
+          data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#bienvenida">Bienvenida</a>
+            <a class="nav-link" href="/index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#biografia">Biografia</a>
+            <a class="nav-link" href="/projects.html">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#datosAcademicos">Datos academicos</a>
-          </li>
-          <li class="nav-item">
-            <a href="#enlacesInteres" class="nav-link">Enlaces de interes</a>
-          </li>
-          <li class="nav-item">
-            <a href="#formulario" class="nav-link">Contactame</a>
+            <a class="nav-link" href="/about.html">About me</a>
           </li>
         </ul>
-      </nav>
-    </div>
+      </div>
+  </nav>
 
-    <header class="jumbotron" id="bienvenida">
-      <h1>Vilma Marcela Tirado Gómez</h1>
-      <img src="foto.jpg" width="200px">
+      <!--Banner-->
+    <header class="mt-5" id="home">
+      <div class="jumbotron project">
+        <div class="row">
+          <div class="col-12 col-lg-7">
+            <h1 class="display-2 text-center py-3">Vilma Marcela Tirado Gómez</h1>
+          </div>
+          <div class="col-12 col-lg-5 d-none d-md-block align-items-center">
+            <img src="foto.jpg" width="200px">
+          </div>  
+        </div>
+      </div>
 
     </header>
     <div class="container">
       <main>
-        <section id="bienbenida">
-          <h2>¡Bienvenidos!</h2>
+        <section >
+          <h2 class="pink">Hi!</h2>
           <p>
-            Soy estudiante de ingenieria de sistemas e ingenieria electronica en la
-            universidad de los Andes. En mi tiempo libre toco guitarra y piano, me encanta pasar 
-            tiempo al aire libre. Mis raices son de la costa caribe. 
+            I'm a student mayoring in Systems engineering and Electric engineering at Los Andes University,
+            Colombia. My roots come from the pacific coast of colombia and I love spending time outdoors. 
           </p>
 
         </section>
-        <section id="biografia">
-          <h2>Biografia</h2>
-          <table class="table-striped">
-            <thead>
-              <tr>
-                <th colspan="2" class="text-centered">Información Personal</th>
-              </tr>
-            </thead>
-            <tr>
-              <td>Nombre completo:</td>
-              <td>Vilma Marcela Tirado Gómez</td>
-            </tr>
-            <tr>
-              <td>Edad</td>
-              <td>21</td>
-            </tr>
-            <tr>
-                <td>Estatura</td>
-                <td>1.50</td>
-              </tr>
-            <tr>
-              <td>Nacionalidad:</td>
-              <td>Colombiana</td>
-            </tr>
-            <tr>
-              <td>Ciudad de nacimiento</td>
-              <td>Bogotá</td>
-            </tr>
+        <section >
+          <h2 class="pink">Academics</h2>
+          <hr>
+          <h3>B.E Systems and Computing Engineering|</h3>
+          <p> Universidad de Los Andes
+            INTENDED GRADUATION: OCTOBER 2021</p>
+            <h3>B.E Electronical Engineering</h3>
+            <p>
+              Universidad de Los Andes
+              INTENDED GRADUATION: MAY 2022
+            </p>
+        </section>
+        <section>
+          <h2 class="pink">Extracurriculars</h2>
+          <hr class="pink">
+          <h3>Systems Engineering Internal Student Council</h3>
+          <p>
+            I have organized different activities to improve sense of community inside the
+            faculty encouraging interaction among students and teachers.
+            Also I have organized events for school kids to encourage them to pursueengineering majors.
+          </p>
+          <h3>ICPC National Competition</h3>
+          <p>
+            Had the opportunity to participate and apply problem solving skills in
+            different areas such as graph search, dynamic programing and
+            mathematics among others.
+          </p>
+        </section>
 
-          </table>
-        </section>
-        <section id="datosAcademicos">
-          <h2>Datos academicos</h2>
-          <ul>
-            <li>
-              <strong>Programa principal:</strong>Ingenieria de sistemas y
-              computación
-            </li>
-            <li><strong>Segundo programa:</strong>Ingenieria electronica</li>
-            <li><strong>Semestre:</strong>Octavo</li>
-            <li>etc</li>
-          </ul>
-        </section>
-        <section id="enlacesInteres">
-          <h2>Enlaces de interes</h2>
-          <div class="row">
-            <div class="col-lg-6 col-sm-6" >
-                <h3>Mi pelicula favorita</h3>
-                <iframe id="ytplayer" type="text/html"
-                src="http://www.youtube.com/embed/qYAETtIIClk"
-                frameborder="0"/></iframe>
-              </div>
-              <div class="col-lg-6 col-sm-6" >
-                <h3>Mi mascota </h3>
-                <img class="img-fluid img-thumbnail image" width="120px" src="blacky.PNG" >
-              </div>
-          </div>
-      </section>
         <section id="formulario">
           <div class="row row-content">
             <div class="col-12 col-sm-8 offset-sm-2 align-self-center">
-              <h2>¡Cotactame!</h2>
                 <div class="card" id="reserve">
-                    <h3 class="card-header bg-warning text-white">
-                        Información
+                    <h3 class="card-header text-white pinkbackround">
+                        Reach out!
                     </h3>
                     <div class="card-body">
                         <form action="">
                             <div class="form-group row">
-                                <label for="name" class="col-12 col-sm-4 col-form-label">Nombre</label>
+                                <label for="name" class="col-12 col-sm-4 col-form-label">Name</label>
                                 <div class="col-12 col-sm-8">
                                     <input type="text" class="form-control" name="name" id="name">
                                 </div>
@@ -132,14 +118,14 @@
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label for="name" class="col-12 col-sm-4 col-form-label">Comentario</label>
+                                <label for="name" class="col-12 col-sm-4 col-form-label">Comment</label>
                                 <div class="col-12 col-sm-8">
                                     <textarea name="commentario" id="commentario" cols="30" rows="10"></textarea>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <div class="offset-sm-2">
-                                    <button type="submit" class="btn btn-primary">Enviar</button>
+                                    <button type="submit" class="btn pinkbackround white-text">Send</button>
                                 </div>
                             </div>
                         </form>
@@ -165,5 +151,7 @@
          </div>
       </div>
   </footer>
+  <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
   </body>
 </html>
