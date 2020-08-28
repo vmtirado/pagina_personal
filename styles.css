@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster|Montserrat:400,500,600&display=swap');
+/* Import de algunas fuentes que, personalmente, me gustan más que las de Bootstrap */
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -25,6 +27,8 @@ hr {
     color: white;
 }
 .project{
-        
-    background-color: #F49FBC;
+    /* Pondría el color del banner un tantito más saturado para que contraste 
+    un poco más con el cambio propuesto de letras blancas en el Banner */
+    background-color: #fe4e8a !important;
+    font-family: 'Nunito','Karla';
 }
