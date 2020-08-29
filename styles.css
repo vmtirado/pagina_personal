@@ -1,30 +1,29 @@
-@import url('https://fonts.googleapis.com/css?family=Lobster|Montserrat:400,500,600&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Lobster|Montserrat:400,500,600&display=swap");
 body {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    color: #000000;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #000000;
 }
 hr {
-    border-top: 1px solid #F49FBC ;
-  }
-.pinkbackround{
-    background-color: #F49FBC;
-}
-.pink{
-    color: #F07FA5
-}
-.leftborder{
-    border-left-color: #F49FBC;
+  border-top: 1px solid #f49fbc;
 }
 
-.bottomborder{
-    border-color: #F49FBC;
+/*Same style for multiple classes can be done in the same rule*/
+.pinkbackround,
+.project {
+  background-color: #f49fbc;
+}
+.pink {
+  color: #f07fa5;
+}
+.leftborder {
+  border-left-color: #f49fbc;
 }
 
-.white{
-    color: white;
+.bottomborder {
+  border-color: #f49fbc;
 }
-.project{
-        
-    background-color: #F49FBC;
+
+.white {
+  color: white;
 }
